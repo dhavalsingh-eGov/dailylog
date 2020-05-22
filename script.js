@@ -84,7 +84,12 @@ new Chart(document.getElementById("mixed-chart"), {
       display: true,
       text: "Fitness Log",
     },
-    legend: { display: true },
+    legend: {
+      display: true,
+      labels: {
+        fontColor: "black",
+      },
+    },
     scales: {
       yAxes: [
         {
@@ -92,10 +97,12 @@ new Chart(document.getElementById("mixed-chart"), {
           ticks: {
             beginAtZero: false,
             suggestedMin: 1200,
+            fontColor: "black",
           },
           scaleLabel: {
             display: true,
             labelString: "Calories(Kcal)",
+            fontColor: "black",
           },
           gridLines: {
             color: "rgba(0, 0, 0, 0)",
@@ -108,10 +115,12 @@ new Chart(document.getElementById("mixed-chart"), {
           ticks: {
             beginAtZero: false,
             suggestedMin: 60,
+            fontColor: "black",
           },
           scaleLabel: {
             display: true,
             labelString: "Weight(Kg)",
+            fontColor: "black",
           },
           gridLines: {
             color: "rgba(0, 0, 0, 0)",
@@ -137,9 +146,13 @@ new Chart(document.getElementById("mixed-chart"), {
       ],
       xAxes: [
         {
+          ticks: {
+            fontColor: "white",
+          },
           gridLines: {
             display: false,
             zeroLineColor: "black",
+            fontColor: "black",
           },
         },
       ],
