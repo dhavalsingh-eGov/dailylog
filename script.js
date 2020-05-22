@@ -97,12 +97,12 @@ new Chart(document.getElementById("mixed-chart"), {
           ticks: {
             beginAtZero: false,
             suggestedMin: 1200,
-            fontColor: "black",
+            fontColor: "white",
           },
           scaleLabel: {
             display: true,
             labelString: "Calories(Kcal)",
-            fontColor: "black",
+            fontColor: "grey",
           },
           gridLines: {
             color: "rgba(0, 0, 0, 0)",
@@ -115,12 +115,12 @@ new Chart(document.getElementById("mixed-chart"), {
           ticks: {
             beginAtZero: false,
             suggestedMin: 60,
-            fontColor: "black",
+            fontColor: "white",
           },
           scaleLabel: {
             display: true,
             labelString: "Weight(Kg)",
-            fontColor: "black",
+            fontColor: "grey",
           },
           gridLines: {
             color: "rgba(0, 0, 0, 0)",
