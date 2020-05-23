@@ -19,6 +19,29 @@
         <canvas id="mixed-chart" width="600" height="350"></canvas>
       </div>
     </div>
+    <script type="text/javascript">
+      function myFunction() {
+        var apiUrl = "https://quotes.rest/quote/random";
+        fetch(apiUrl, {
+          method: "GET",
+          headers: {
+            " X-TheySaidSo-Api-Secret": "991199",
+          },
+        })
+          .then((response) => {
+            return response.json();
+          })
+          .then((data) => {
+            console.log(data);
+            // Work with JSON data here
+            document.getElementById("quote").innerHTML = data.quotes[0].quote;
+            console.log(data);
+          })
+          .catch((err) => {
+            // Do something for an error here
+          });
+      }
+    </script>
     <script type="module" src="script.js"></script>
   </body>
 </html>

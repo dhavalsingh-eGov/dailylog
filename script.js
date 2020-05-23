@@ -83,11 +83,12 @@ new Chart(document.getElementById("mixed-chart"), {
     title: {
       display: true,
       text: "Fitness Log",
+      fontColor: "#fffcf2",
     },
     legend: {
       display: true,
       labels: {
-        fontColor: "black",
+        fontColor: "#fffcf2",
       },
     },
     scales: {
@@ -97,12 +98,12 @@ new Chart(document.getElementById("mixed-chart"), {
           ticks: {
             beginAtZero: false,
             suggestedMin: 1200,
-            fontColor: "white",
+            fontColor: "#fffcf2",
           },
           scaleLabel: {
             display: true,
             labelString: "Calories(Kcal)",
-            fontColor: "grey",
+            fontColor: "#fffcf2",
           },
           gridLines: {
             color: "rgba(0, 0, 0, 0)",
@@ -120,7 +121,7 @@ new Chart(document.getElementById("mixed-chart"), {
           scaleLabel: {
             display: true,
             labelString: "Weight(Kg)",
-            fontColor: "grey",
+            fontColor: "#fffcf2",
           },
           gridLines: {
             color: "rgba(0, 0, 0, 0)",
