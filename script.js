@@ -30,6 +30,36 @@ var Data = {
       cals: 2400,
       cigs: 5,
     },
+    {
+      date: "20/05/22",
+      weight: 83.9,
+      cals: 1800,
+      cigs: 3,
+    },
+    {
+      date: "21/05/22",
+      weight: 83.4,
+      cals: 1600,
+      cigs: 2.5,
+    },
+    {
+      date: "22/05/22",
+      weight: 83.5,
+      cals: 1900,
+      cigs: 3,
+    },
+    {
+      date: "23/05/22",
+      weight: 83.3,
+      cals: 2000,
+      cigs: 4,
+    },
+    {
+      date: "24/05/22",
+      weight: 83.1,
+      cals: 2100,
+      cigs: 3.5,
+    },
   ],
 };
 
